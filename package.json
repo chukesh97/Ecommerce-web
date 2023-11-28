@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client-install": "cd client && npm install ",
     "client-build": "cd client && npm run build",
-    "heroku-postbuild": "npm run client-install && npm run client-build"
+    "install-all": "npm install && npm run client-install"
   },
   "author": "",
   "license": "ISC",
